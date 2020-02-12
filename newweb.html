@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>
+	gideon_web
+</title>
+<div align="center">
+	<h1 class = "header">Gidi Search<span class="badge badge-secondary"></span></h1>
+</div>
+<div align="center">
+		<script type="text/javascript">
+		function greet()
+		{
+			let name = document.querySelector("#name").value;
+			if (name === "")
+			{
+				name = "world"
+			}
+			alert("Hello," + name + "!");
+		}
+	</script>
+</div>
+<div align="left">
+	<script>
+    document.addEventListener('DOMContentLoaded', function(e) {
+    const BULLETCOUNT = 5
+
+    const ul = document.createElement("ul")
+    ul.className = "ul-default"
+
+    document.documentElement.childNodes[1].appendChild(ul)
+    for (let i = 0; i < BULLETCOUNT; i++){ 
+        const list_item = document.createElement("li")
+        ul.appendChild(list_item)
+        const li_text = document.createTextNode("Bulleting " + (i + 1))
+        list_item.appendChild(li_text)
+    }
+});
+</script>
+</div>
+<body>
+	<form onsubmit="greet(); return false">
+		<input type="text" id="name">
+		<input type="submit">
+	</form>
+
+	
+</body>
+</html>
