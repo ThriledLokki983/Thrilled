@@ -10,6 +10,7 @@ def main():
             break
         
 mario(height)
+## I need to insert a function to calculate the height of the pyramid
 
 main()
 
