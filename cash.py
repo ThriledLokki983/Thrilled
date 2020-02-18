@@ -6,6 +6,7 @@ def main():
             break
     change = int(dollar * 100)
     calc(change)
+## I wanted to make changes right away
 
 def calc(change):
     number = 0
