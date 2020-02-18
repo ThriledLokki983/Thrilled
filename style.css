@@ -1,0 +1,23 @@
+.header{
+	color: blue; 
+	background: Light; 
+	text-align: center; 
+	font-family: Verdana;
+}
+
+.ul-default{
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 50px;
+	font-size: 1.5rem;
+	font-family: Times;
+}
+
+.dropdown{
+	margin-left: auto;
+	margin-top: : auto;
+	font-family: 50px;
+	font-size: 1.5rem;
+
+}

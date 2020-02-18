@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            gideon
+        </title>
+        <h1 class = "header">Gideon's IT Solutions <span class="badge badge-secondary">New</span></h1>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/
+        <button type="button" class="btn btn-primary btn-lg">Home</button>
+        <button type="button" class="btn btn-secondary btn-lg">Blogs</button>
+        <button type="button" class="btn btn-secondary btn-lg">Contact</button>
+        <script>
+    document.addEventListener('DOMContentLoaded', function(e) {
+    const BULLETCOUNT = 10
+
+    const ul = document.createElement("ul")
+    ul.className = "ul-default"
+
+    document.documentElement.childNodes[1].appendChild(ul)
+    for (let i = 0; i < BULLETCOUNT; i++){ 
+        const list_item = document.createElement("li")
+        ul.appendChild(list_item)
+        const li_text = document.createTextNode("Bulleting " + (i + 1))
+        list_item.appendChild(li_text)
+    }
+
+    const dropdown = document.createElement("dropdown")
+    dropdown.className = "dropdown"
+    document.documentElement.childNodes[1].appendChild(dropdown)
+    for(let i = 0; i < BULLETCOUNT; i++){
+        const list_item2 = document.createElement("li1")
+        dropdown.appendChild(list_item2)
+        const li1_text = document.createTextNode("Text " + (i + 1))
+        list_item2.appendChild(li1_text)
+    }
+});
+</script>
+    </head>
+    <body class = "body">
+        <form action = "https://www.google.com/search" method = "get"; align = "right">
+            <input name ="q" type = "text">
+            <input type = "submit" value ="search">
+        </form>
+        <div align="center">
+            This is the boy who is learning web development
+        </div>
+
+        <h1>Title of my page.</h1>
+        <span class="badge badge-pill badge-primary">Title</span>
+        <p>This is the first paragraph.</p>
+
+
+        <h2>The second heading</h2>
+        <p>This is the second paragraph.</p>
+
+        <h2>The third heading</h2>
+        <p>This is the third and last paragraph.</p>
+    </body>
+</html>
